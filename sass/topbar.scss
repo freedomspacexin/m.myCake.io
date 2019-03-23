@@ -1,0 +1,182 @@
+.header-box {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  &>.top-header{
+    max-width: 750px;
+    min-width: 320px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    height: 50px;
+    &>.open-app{
+      height: 50px;
+      background:#442818;
+      padding-right:12px;
+      overflow:hidden;
+      vertical-align: middle;
+      i{
+        color: #fff;
+        float: left;
+        font-size: 20px;
+        font-weight: 700;
+        height: 14px;
+        width: 14px;
+        padding: 10px 20px;
+        margin-top: 4px;
+        cursor: pointer;
+      }
+      img{
+        float: left;
+        padding: 9px 5px;
+        height: 32px;
+        width: 32px;
+        margin-right: 6px;
+        border-radius: 8px;
+      }
+      span{
+        float: left;
+        padding: 8px;
+        width: 100px;
+        line-height: 15px;
+        color: #fff;
+        font-size: 11px;
+        margin-top: 3px;
+      }
+      a{
+        height: 25px;
+        width: 68px;
+        background: #fff;
+        color: #333;
+        line-height: 25px;
+        text-align: center;
+        float: right;
+        margin-top: 12px;
+      }
+    }
+    &>.title-box{
+      width: 100%;
+      background:#fff;
+      height: 50px;
+      line-height: 50px;
+      position: relative;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+      .left-icon{
+        float: left;
+        height: 18px;
+        margin-left: 15px;
+        width: 18px;
+        .icon-title{
+          height: 14px;
+          width: 18px;
+          background: url(../images/top-icon.png) no-repeat;
+          background-size: cover;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .city{
+        float: left;
+        height: 18px;
+        margin-left: 10px;
+        i{
+          font-size: 16px;
+        }
+      }
+
+      .eader-center{
+        position: absolute;
+        left: 50%;
+        top: 0;
+        display: inline-block;
+        width: 120px;
+        margin-left: -60px;
+        height: 30px;
+        text-align: center;
+        font-size: 15px;
+        .title-logo{
+          width: 30px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .right-cart-city{
+        height: 100%;
+        float: right;
+        .top-message{
+          height: 50px;
+          width: 25px;
+          float: left;
+          background-size: cover;
+          background: url(../images/header_message.png) center no-repeat;
+          background-size: 18px 19px;
+        }
+        .top-cart{
+          height: 50px;
+          width: 25px;
+          float: right;
+          position: relative;
+          margin: 0 15px 0 10px;
+          i{
+            display: inline-block;
+            height: 50px;
+            width: 25px;
+            background-size: cover;
+            background: url(../images/cart.png) center no-repeat;
+            background-size: 18px 19px;
+          }
+        }
+      }
+      .top-header-menu{
+        position: absolute;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        height: 54px;
+        background: #fff;
+        overflow: hidden;
+        display: none;
+        box-shadow: 0px 7px 10px 0px rgba(145, 145, 145, 0.50);
+        z-index: 10000;
+
+        &.show{
+          display: block;
+        }
+        a{
+          padding-top: 5px;
+          display: block;
+          width: 33%;
+          float: left;
+          text-align: center;
+          line-height: 0;
+          i{
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+          }
+          span{
+            display: block;
+            line-height: 20px;
+          }
+        }
+        .menu-home i{
+          background: url(../images/menu-home.png) no-repeat center top;
+          background-size: 25px 25px;
+        }
+        .menu-class i{
+          background: url(../images/menu-icon-class.png) no-repeat center top;
+          background-size: 25px 25px;
+        }
+        .menu-per i{
+          background: url(../images/menu-icon-per.png) no-repeat center top;
+          background-size: 25px 25px;
+        }
+      }
+  }
+}
+}
+
+

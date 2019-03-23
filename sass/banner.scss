@@ -1,0 +1,90 @@
+.mycake-banner{
+  margin-top: 50px;
+  position: relative;
+  .station-notice {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(250,193,28,0.2);
+    z-index: 999;
+    font-size: 12px;
+    i{
+      background-color: red;
+      display: inline-block;
+      position: absolute;
+      width: 33px;
+      height: 20px;
+      left: 15px;
+      top: 50%;
+      margin-top: -10px;
+      background: url("../images/notic.png") no-repeat center;
+      background-size: cover;
+    }
+    p{
+      height: 40px;
+      width: 80%;
+      line-height: 40px;
+      padding-left: 60px;
+      a{
+        padding-left: 30rem/$baseFontSize;
+        color: #fac14b;
+      }
+    }
+    .close-notice{
+      width: 20px;
+      height: 16px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      margin-top: -8px;
+      right: 10px;
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+  /* 轮播图 css */
+  .swiper-container{
+    position: relative;
+    background:#FAFAFA;
+    .item{
+      a {
+        display: block;
+        width: 100%;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+    .swiper-pagination{
+      bottom:20rem/$baseFontSize !important;
+      width:100%;
+    }
+    .swiper-pagination-bullet{
+      width:10rem/$baseFontSize;
+      height:10rem/$baseFontSize;
+      margin:8rem/$baseFontSize !important;
+      background:none;
+      border:1px solid #684028;
+      opacity: 1;
+      position: relative;
+    }
+    .swiper-pagination-bullet-active{
+      background: #684028;
+    }
+    .swiper-pagination-bullet-active::before{
+      content:'';
+      position: absolute;
+      top:-3px;
+      right:-3px;
+      bottom:-3px;
+      left:-3px;
+      background:#684028;
+      opacity: .6;
+      border-radius: 100%;
+    }
+  }
+  /* 轮播图 css end */
+}

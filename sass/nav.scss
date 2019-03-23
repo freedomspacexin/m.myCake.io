@@ -1,0 +1,51 @@
+.feature-container{
+  p{
+    height: 48px;
+    line-height: 48px;
+    float: left;
+    font-size: 16rem/$baseFontSize;
+    color: #c79d6d;
+    width: 25%;
+    text-align: center;
+    i{
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      background-image: url("../images/new-home-icon.png");
+      background-position: 1px -8px;
+      background-repeat: no-repeat;
+      background-size: 78px 44px;
+
+    }
+  }
+}
+.products-container{
+  padding: 0 20rem/$baseFontSize;
+  p{
+    border-bottom: 1px solid $mainColor;
+  }
+  .player-tool_wrapper{
+    color: #FFFFFF;
+    text-align: center;
+    margin: 25rem/$baseFontSize 0;
+    li{
+      float: left;
+      width: 20%;
+      font-size: 16rem/$baseFontSize;
+      color: #fff;
+      p {
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        width: 80rem/$baseFontSize;
+        height: 80rem/$baseFontSize;
+        line-height: 80rem/$baseFontSize;
+        border-radius: 50%;
+        background-color: $mainColor;
+        span{
+          font-size: 12rem/$baseFontSize;
+        }
+      }
+    }
+  }
+}

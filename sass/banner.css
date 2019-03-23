@@ -1,0 +1,11 @@
+.mycake-banner {
+  position: relative; }
+  .mycake-banner .station-notice {
+      position: absolute;
+      display: none;
+      left: 0;
+      top: 0;
+      height: 45px;  width: 100%;
+    background-color: rgba(68, 40, 28, 0.56); }
+
+/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,13 @@
+//移动端设置尺寸集合：
+//$deviceSizeList:750px, 720px, 640px, 540px, 480px, 424px, 414px, 400px, 384px, 375px, 360px, 320px;
+$deviceSizeList:320px, 360px, 375px, 384px, 400px, 414px, 424px, 480px, 540px, 640px, 720px, 750px;
+//设计稿尺寸：
+$psdWidth:750;
+//设计稿的预设基准值：主要来运算设计稿的单位转为rem;并且得出不同尺寸设备的基准值（即  html字体大小）
+$baseFontSize:100;
+//适配设备的个数：
+$len:length($deviceSizeList);
+//主体颜色
+$mainColor:#684028;
+//banner图片数量
+$imageCount:7;

@@ -1,0 +1,92 @@
+dl, dt, dd, p, div, span, input, img,h1,h2,h3 {
+  margin: 0;
+  padding: 0;
+  border:0;
+  font-weight:normal;
+}
+ul, ol, li {
+  list-style: none ;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  border:0;
+  color:$mainColor;
+  font-size: 12rem/$baseFontSize;
+}
+body{
+  font-size: 12rem/$baseFontSize;
+  height: 1000px;
+  color:#000000;
+  font-family:PingFang SC,Helvetica;
+  margin: 0;
+  padding: 0;
+  tap-highlight-color: transparent;/*移动端点击高亮为透明*/
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100% !important;
+  max-width:750px;
+  min-width:320px;
+  margin:auto;
+  background:#fff;
+}
+
+img {
+  border:none;
+  vertical-align: top;
+}
+i{
+  font-style:normal;
+}
+input{
+  font-family:PingFang SC,Helvetica;
+  font-style:normal;
+  border:none;
+  outline:medium;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="submit"],input[type="reset"],input[type="button"],button {
+  -webkit-appearance: none;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #D4D4D4;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color:#D4D4D4;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color:#D4D4D4;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color:#D4D4D4;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+input[type="number"]{
+  -moz-appearance:textfield;
+}
+textarea{
+  font-family:PingFang SC,Helvetica;
+  font-style:normal;
+  border:none;
+  outline:medium;
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+em{
+  font-style: normal;
+}
+/*移动端的box-sixing设置为border-box*/
+*::before,
+*::after{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}

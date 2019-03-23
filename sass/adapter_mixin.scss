@@ -1,0 +1,11 @@
+//作用：处理不同屏幕响应设置html字体大小，从而能过rem控制整个布局大小
+//在css文档生成媒体查询语句运算方法
+//需对集合遍历  less中没有for或where语句
+//只能通过递归方法，并限制条件来结束语句
+@each $i in $deviceSizeList {
+  @media (min-width: $i) {
+    html {
+      font-size: $baseFontSize / $psdWidth * $i;
+    }
+  }
+}

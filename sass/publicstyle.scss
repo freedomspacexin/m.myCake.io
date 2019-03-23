@@ -1,0 +1,40 @@
+/*版心*/
+.mycake_container{
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 90rem/$baseFontSize;
+  padding-bottom: 100rem/$baseFontSize;
+
+}
+
+//清除浮动
+.clearFix::before,
+.clearFix::after{
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+
+@font-face {  /*声明字体  引用字体*/
+  font-family: "icomoon";  /*我们自己起名字可以*/
+  font-style: normal;  /*倾斜字体正常*/
+  /*固定写法，路径为自已的字体路径*/
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+  url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+  url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+}
+
+.icomoon_font {
+  font-family:icomoon;
+}
+.icomoon_font_gps::before {
+  content: "\e8b4";
+}
