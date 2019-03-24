@@ -432,7 +432,7 @@ em {
     .products-container .player-tool_wrapper li {
       float: left;
       width: 20%;
-      font-size: 0.16rem;
+      font-size: 0.26rem;
       color: #fff; }
       .products-container .player-tool_wrapper li p {
         display: inline-block;
@@ -505,12 +505,12 @@ em {
       display: inline-block; }
       .product-list .content .functions-bg .bg-title {
         margin-left: 0.1rem;
-        font-size: 0.16rem;
+        font-size: 0.24rem;
         color: #FFFFFF;
         letter-spacing: 0;
         text-shadow: 0 0.01rem 0.04rem rgba(0, 0, 0, 0.5); }
         .product-list .content .functions-bg .bg-title span {
-          font-size: 0.12rem;
+          font-size: 0.16rem;
           color: #FFFFFF;
           display: inline-block; }
       .product-list .content .functions-bg a.cart-icon {
@@ -596,6 +596,7 @@ em {
   .footer a {
     color: #a0a0a0; }
   .footer ul li {
+    font-size: 0.16rem;
     height: 0.4rem;
     line-height: 0.4rem;
     margin: 0px 1%;
