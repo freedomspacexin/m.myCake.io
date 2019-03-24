@@ -15,4 +15,52 @@
       border-radius: 30rem/$baseFontSize;
     }
   }
+  .swiper-container{
+    width: 100%;
+    height: 200rem/$baseFontSize;
+    .swiper-slide{
+      font-size: 18px;
+      background: #fff;
+      width: 75%;
+      overflow: hidden;
+      a{
+        display: inline-block;
+        width: 98%;
+        height: 98%;
+        margin-top: 2px;
+        box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
+        img{
+          display: block;
+          width: 100%;
+          height: 150rem/$baseFontSize;
+        }
+        span{
+
+          display: block;
+          padding-top: 10rem/$baseFontSize;
+          font-size: 16rem/$baseFontSize;
+        }
+      }
+      &:last-child {
+        width: 25%;
+        text-align: center;
+        display: block;
+
+        a{
+          width: 96%;
+          height: 98%;
+          position: relative;
+          span{
+            width: 120rem/$baseFontSize;
+            height: 40rem/$baseFontSize;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top: -20rem/$baseFontSize;
+            margin-left: -60rem/$baseFontSize;
+          }
+        }
+      }
+    }
+  }
 }

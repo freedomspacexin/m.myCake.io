@@ -542,6 +542,44 @@ em {
       background-color: rgba(68, 40, 28, 0.3);
       width: 1.5rem;
       border-radius: 0.3rem; }
+  .mycake-article .swiper-container {
+    width: 100%;
+    height: 2rem; }
+    .mycake-article .swiper-container .swiper-slide {
+      font-size: 18px;
+      background: #fff;
+      width: 75%;
+      overflow: hidden; }
+      .mycake-article .swiper-container .swiper-slide a {
+        display: inline-block;
+        width: 98%;
+        height: 98%;
+        margin-top: 2px;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1); }
+        .mycake-article .swiper-container .swiper-slide a img {
+          display: block;
+          width: 100%;
+          height: 1.5rem; }
+        .mycake-article .swiper-container .swiper-slide a span {
+          display: block;
+          padding-top: 0.1rem;
+          font-size: 0.16rem; }
+      .mycake-article .swiper-container .swiper-slide:last-child {
+        width: 25%;
+        text-align: center;
+        display: block; }
+        .mycake-article .swiper-container .swiper-slide:last-child a {
+          width: 96%;
+          height: 98%;
+          position: relative; }
+          .mycake-article .swiper-container .swiper-slide:last-child a span {
+            width: 1.2rem;
+            height: 0.4rem;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top: -0.2rem;
+            margin-left: -0.6rem; }
 
 .footer {
   background: #414141;
