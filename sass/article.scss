@@ -26,9 +26,9 @@
       a{
         display: inline-block;
         width: 98%;
-        height: 98%;
+        height: 97%;
         margin-top: 2px;
-        box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
         img{
           display: block;
           width: 100%;
@@ -47,8 +47,6 @@
         display: block;
 
         a{
-          width: 96%;
-          height: 98%;
           position: relative;
           span{
             width: 120rem/$baseFontSize;

@@ -53,6 +53,7 @@ a {
   font-size: 0.12rem; }
 
 body {
+  height: 3500px;
   font-size: 0.12rem;
   color: #000000;
   font-family: PingFang SC,Helvetica;
@@ -553,9 +554,9 @@ em {
       .mycake-article .swiper-container .swiper-slide a {
         display: inline-block;
         width: 98%;
-        height: 98%;
+        height: 97%;
         margin-top: 2px;
-        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1); }
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
         .mycake-article .swiper-container .swiper-slide a img {
           display: block;
           width: 100%;
@@ -569,8 +570,6 @@ em {
         text-align: center;
         display: block; }
         .mycake-article .swiper-container .swiper-slide:last-child a {
-          width: 96%;
-          height: 98%;
           position: relative; }
           .mycake-article .swiper-container .swiper-slide:last-child a span {
             width: 1.2rem;
