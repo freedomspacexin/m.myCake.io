@@ -21,6 +21,25 @@
   clear: both;
 }
 
+.f_left{
+  float: left;
+}
+
+.f_right{
+  float: right;
+}
+
+.border_left{
+  border-left: 1px solid #ddd;
+}
+.border_right{
+  border-right: 1px solid #ddd;
+}
+
+.border_bottom{
+  border-bottom: 1px solid #ddd;
+}
+
 @font-face {  /*声明字体  引用字体*/
   font-family: "icomoon";  /*我们自己起名字可以*/
   font-style: normal;  /*倾斜字体正常*/

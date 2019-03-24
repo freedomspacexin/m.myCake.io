@@ -1,0 +1,18 @@
+.mycake-article{
+  padding: 20rem/$baseFontSize 30rem/$baseFontSize;
+  .article-head {
+    border-top: 1px solid $mainColor;
+    h3{
+      margin:18rem/$baseFontSize 0;
+      float: left;
+      text-align: center;
+      font-size: 20rem/$baseFontSize;
+      color: $mainColor;
+      line-height: 30rem/$baseFontSize;
+      height: 30rem/$baseFontSize;
+      background-color: rgba(68,40,28,0.3);
+      width: 150rem/$baseFontSize;
+      border-radius: 30rem/$baseFontSize;
+    }
+  }
+}
