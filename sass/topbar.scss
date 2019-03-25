@@ -47,7 +47,7 @@
         margin-top: 3px;
       }
       a{
-        font-size: 16px;
+        font-size: 14px;
         height: 25px;
         width: 68px;
         background: #fff;
@@ -67,17 +67,8 @@
       box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
       .left-icon{
         float: left;
-        height: 18px;
         margin-left: 15px;
-        width: 18px;
-        .icon-title{
-          height: 14px;
-          width: 18px;
-          background: url(../images/top-icon.png) no-repeat;
-          background-size: cover;
-          display: inline-block;
-          vertical-align: middle;
-        }
+        font-size: 20px;
       }
       .city{
         float: left;
@@ -107,13 +98,11 @@
       .right-cart-city{
         height: 100%;
         float: right;
-        .top-message{
+        .user_icons{
           height: 50px;
           width: 25px;
           float: left;
-          background-size: cover;
-          background: url(../images/header_message.png) center no-repeat;
-          background-size: 18px 19px;
+          font-size: 18px;
         }
         .top-cart{
           height: 50px;
@@ -121,14 +110,7 @@
           float: right;
           position: relative;
           margin: 0 15px 0 10px;
-          i{
-            display: inline-block;
-            height: 50px;
-            width: 25px;
-            background-size: cover;
-            background: url(../images/cart.png) center no-repeat;
-            background-size: 18px 19px;
-          }
+          font-size: 26px;
         }
       }
       .top-header-menu{
