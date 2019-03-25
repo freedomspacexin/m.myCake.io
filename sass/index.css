@@ -187,6 +187,15 @@ em {
 .icomoon_font_close::before {
   content: "\e901"; }
 
+.icomoon_font_home::before {
+  content: "\e84f"; }
+
+.icomoon_font_class::before {
+  content: "\e871"; }
+
+.icomoon_font_message::before {
+  content: "\e0cb"; }
+
 .header-box {
   width: 100%;
   height: 50px;
@@ -302,7 +311,7 @@ em {
         .header-box > .top-header > .title-box .top-header-menu.show {
           display: block; }
         .header-box > .top-header > .title-box .top-header-menu a {
-          padding-top: 5px;
+          padding: 15px 0px;
           display: block;
           width: 33%;
           float: left;
@@ -310,20 +319,11 @@ em {
           line-height: 0; }
           .header-box > .top-header > .title-box .top-header-menu a i {
             display: inline-block;
-            height: 25px;
-            width: 25px; }
+            font-size: 26px; }
           .header-box > .top-header > .title-box .top-header-menu a span {
             display: block;
+            padding-top: 8px;
             line-height: 20px; }
-        .header-box > .top-header > .title-box .top-header-menu .menu-home i {
-          background: url(../images/menu-home.png) no-repeat center top;
-          background-size: 25px 25px; }
-        .header-box > .top-header > .title-box .top-header-menu .menu-class i {
-          background: url(../images/menu-icon-class.png) no-repeat center top;
-          background-size: 25px 25px; }
-        .header-box > .top-header > .title-box .top-header-menu .menu-per i {
-          background: url(../images/menu-icon-per.png) no-repeat center top;
-          background-size: 25px 25px; }
 
 .mycake-banner {
   margin-top: 50px;
@@ -357,7 +357,8 @@ em {
       padding-left: 60px; }
       .mycake-banner .station-notice p a {
         padding-left: 0.3rem;
-        color: #fac14b; }
+        color: #ccc;
+        font-size: 12px; }
     .mycake-banner .station-notice .close-notice {
       width: 20px;
       height: 16px;
@@ -367,7 +368,8 @@ em {
       margin-top: -8px;
       right: 10px;
       font-size: 16px;
-      line-height: 16px; }
+      line-height: 16px;
+      text-decoration: none; }
   .mycake-banner .swiper-container {
     position: relative;
     background: #FAFAFA;
@@ -445,19 +447,23 @@ em {
 .product-list {
   padding: 0.2rem 0.3rem; }
   .product-list .product-head h3 {
-    margin: 0.15rem 0;
+    margin: 0.3rem 0;
     float: left;
     text-align: center;
-    font-size: 0.2rem;
+    font-size: 0.26rem;
     color: #684028;
     line-height: 0.3rem;
     height: 0.3rem;
     background-color: rgba(68, 40, 28, 0.3);
-    width: 0.8rem;
-    border-radius: 0.3rem; }
+    width: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.05rem 0px; }
   .product-list .product-head a {
-    margin: 0.15rem 0;
-    font-size: 0.16rem;
+    display: inline-block;
+    text-align: center;
+    margin: 0.3rem 0;
+    padding: 0.05rem 0px;
+    font-size: 0.3rem;
     float: right;
     line-height: 0.3rem;
     height: 0.3rem; }
@@ -466,9 +472,10 @@ em {
       display: inline-block;
       width: 0.1rem;
       height: 0.16rem;
+      margin-left: 0.1rem;
       background-image: url("../images/more.png");
       background-repeat: no-repeat;
-      background-position: 0.01rem 0.03rem;
+      background-position: 0.01rem 0rem;
       background-size: 0.09rem 0.14rem; }
   .product-list .content {
     width: 100%; }
@@ -511,16 +518,16 @@ em {
           display: inline-block; }
       .product-list .content .functions-bg a.cart-icon {
         display: inline-block;
-        width: 0.44rem;
-        height: 0.44rem;
+        width: 0.59rem;
+        height: 0.59rem;
         right: 0.05rem;
         top: 50%;
-        margin-top: -0.22rem;
+        margin-top: -0.29rem;
         position: absolute;
         background-image: url("../images/new-home-icon.png");
         background-repeat: no-repeat;
-        background-size: 0.78rem 0.44rem;
-        background-position: -0.35rem 0.02rem; }
+        background-size: 1.05rem 0.59rem;
+        background-position: -0.4rem 0.02rem; }
   .product-list .new-product {
     border-top: 1px solid #684028; }
 
@@ -529,19 +536,20 @@ em {
   .mycake-article .article-head {
     border-top: 1px solid #684028; }
     .mycake-article .article-head h3 {
-      margin: 0.18rem 0;
+      margin: 0.3rem 0;
       float: left;
       text-align: center;
-      font-size: 0.2rem;
+      font-size: 0.26rem;
       color: #684028;
       line-height: 0.3rem;
       height: 0.3rem;
       background-color: rgba(68, 40, 28, 0.3);
-      width: 1.5rem;
-      border-radius: 0.3rem; }
+      width: 1.8rem;
+      border-radius: 0.3rem;
+      padding: 0.05rem 0px; }
   .mycake-article .swiper-container {
     width: 100%;
-    height: 2rem; }
+    height: 3rem; }
     .mycake-article .swiper-container .swiper-slide {
       font-size: 18px;
       background: #fff;
@@ -556,11 +564,12 @@ em {
         .mycake-article .swiper-container .swiper-slide a img {
           display: block;
           width: 100%;
-          height: 1.5rem; }
+          height: 2.2rem; }
         .mycake-article .swiper-container .swiper-slide a span {
+          line-height: 0.8rem;
           display: block;
-          padding-top: 0.1rem;
-          font-size: 0.16rem; }
+          font-size: 0.22rem;
+          text-indent: 1em; }
       .mycake-article .swiper-container .swiper-slide:last-child {
         width: 25%;
         text-align: center;
@@ -592,7 +601,7 @@ em {
   .footer a {
     color: #a0a0a0; }
   .footer ul li {
-    font-size: 0.16rem;
+    font-size: 0.22rem;
     height: 0.4rem;
     line-height: 0.4rem;
     margin: 0px 1%;
@@ -602,7 +611,8 @@ em {
     .footer ul li a {
       display: inline-block;
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      font-size: 0.2rem; }
   .footer p {
     margin-top: 0.2rem; }
 

@@ -3,21 +3,25 @@
   padding: 20rem/$baseFontSize 30rem/$baseFontSize;
   //共同样式
   .product-head h3{
-    margin:15rem/$baseFontSize 0;
+    margin:30rem/$baseFontSize 0;
     float: left;
     text-align: center;
-    font-size: 20rem/$baseFontSize;
+    font-size: 26rem/$baseFontSize;
     color: $mainColor;
     line-height: 30rem/$baseFontSize;
     height: 30rem/$baseFontSize;
     background-color: rgba(68,40,28,0.3);
-    width: 80rem/$baseFontSize;
+    width: 100rem/$baseFontSize;
     border-radius: 30rem/$baseFontSize;
+    padding: 5rem/$baseFontSize 0px;
   }
 
   .product-head a{
-    margin:15rem/$baseFontSize 0;
-    font-size: 16rem/$baseFontSize;
+    display: inline-block;
+    text-align: center;
+    margin:30rem/$baseFontSize 0;
+    padding: 5rem/$baseFontSize 0px;
+    font-size: 30rem/$baseFontSize;
     float: right;
     line-height: 30rem/$baseFontSize;
     height: 30rem/$baseFontSize;
@@ -26,9 +30,10 @@
       display: inline-block;
       width: 10rem/$baseFontSize;
       height: 16rem/$baseFontSize;
+      margin-left: 10rem/$baseFontSize;
       background-image: url("../images/more.png");
       background-repeat: no-repeat;
-      background-position: 1rem/$baseFontSize 3rem/$baseFontSize;
+      background-position: 1rem/$baseFontSize 0rem/$baseFontSize;
       background-size: 9rem/$baseFontSize 14rem/$baseFontSize;
 
     }
@@ -85,16 +90,16 @@
       a{
         &.cart-icon{
           display: inline-block;
-          width: 44rem/$baseFontSize;
-          height: 44rem/$baseFontSize;
+          width: 59rem/$baseFontSize;
+          height: 59rem/$baseFontSize;
           right: 5rem/$baseFontSize;
           top: 50%;
-          margin-top: -22rem/$baseFontSize;
+          margin-top: -29rem/$baseFontSize;
           position: absolute;
           background-image:url("../images/new-home-icon.png");
           background-repeat: no-repeat;
-          background-size: 78rem/$baseFontSize 44rem/$baseFontSize;
-          background-position: -35rem/$baseFontSize 2rem/$baseFontSize;
+          background-size: 105rem/$baseFontSize 59rem/$baseFontSize;
+          background-position: -40rem/$baseFontSize 2rem/$baseFontSize;
         }
       }
     }

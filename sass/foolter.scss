@@ -19,7 +19,6 @@
   }
   ul{
     li{
-      font-size: 16rem/$baseFontSize;
       height: 40rem/$baseFontSize;
       line-height: 40rem/$baseFontSize;
       margin: 0px 1%;
@@ -30,6 +29,7 @@
         display: inline-block;
         width: 100%;
         height: 100%;
+        font-size: 20rem/$baseFontSize;
       }
     }
   }
