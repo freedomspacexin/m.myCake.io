@@ -578,6 +578,7 @@ em {
         display: block;
         height: 100%; }
         .mycake-article .swiper-container .swiper-slide:last-child a {
+          border-left: 0.01rem solid rgba(204, 204, 204, 0.1);
           position: relative; }
           .mycake-article .swiper-container .swiper-slide:last-child a span {
             width: 1.2rem;
@@ -586,7 +587,7 @@ em {
             left: 50%;
             top: 50%;
             margin-top: -0.35rem;
-            margin-left: -0.55rem; }
+            margin-left: -0.68rem; }
 
 .footer {
   background: #414141;

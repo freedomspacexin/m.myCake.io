@@ -47,6 +47,7 @@
         display: block;
         height: 100%;
         a{
+          border-left: 1rem/$baseFontSize solid rgba(204,204,204,0.1);
           position: relative;
           span{
             width: 120rem/$baseFontSize;
@@ -55,7 +56,7 @@
             left: 50%;
             top: 50%;
             margin-top: -35rem/$baseFontSize;
-            margin-left: -50rem/$baseFontSize;
+            margin-left: -68rem/$baseFontSize;
           }
         }
       }
