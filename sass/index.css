@@ -271,7 +271,7 @@ em {
       .header-box > .top-header > .title-box .eader-center {
         position: absolute;
         left: 50%;
-        top: 0;
+        top: -5px;
         display: inline-block;
         width: 120px;
         margin-left: -60px;
@@ -279,7 +279,7 @@ em {
         text-align: center;
         font-size: 15px; }
         .header-box > .top-header > .title-box .eader-center .title-logo {
-          width: 35px;
+          width: 32px;
           display: inline-block;
           vertical-align: middle; }
       .header-box > .top-header > .title-box .right-cart-city {
