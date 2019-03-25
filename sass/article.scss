@@ -43,10 +43,9 @@
         }
       }
       &:last-child {
-        width: 25%;
-        text-align: center;
+        width: 24%;
         display: block;
-
+        height: 100%;
         a{
           position: relative;
           span{
@@ -55,8 +54,8 @@
             position: absolute;
             left: 50%;
             top: 50%;
-            margin-top: -20rem/$baseFontSize;
-            margin-left: -60rem/$baseFontSize;
+            margin-top: -35rem/$baseFontSize;
+            margin-left: -55rem/$baseFontSize;
           }
         }
       }

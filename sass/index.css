@@ -574,9 +574,9 @@ em {
           font-size: 0.22rem;
           text-indent: 1em; }
       .mycake-article .swiper-container .swiper-slide:last-child {
-        width: 25%;
-        text-align: center;
-        display: block; }
+        width: 24%;
+        display: block;
+        height: 100%; }
         .mycake-article .swiper-container .swiper-slide:last-child a {
           position: relative; }
           .mycake-article .swiper-container .swiper-slide:last-child a span {
@@ -585,8 +585,8 @@ em {
             position: absolute;
             left: 50%;
             top: 50%;
-            margin-top: -0.2rem;
-            margin-left: -0.6rem; }
+            margin-top: -0.35rem;
+            margin-left: -0.55rem; }
 
 .footer {
   background: #414141;
