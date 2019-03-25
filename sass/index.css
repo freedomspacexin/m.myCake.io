@@ -373,6 +373,7 @@ em {
   .mycake-banner .swiper-container {
     position: relative;
     background: #FAFAFA;
+    height: 4rem;
     /*.swiper-pagination-bullet-active::before{
       content:'';
       position: absolute;
@@ -520,7 +521,7 @@ em {
         display: inline-block;
         width: 0.59rem;
         height: 0.59rem;
-        right: 0.05rem;
+        right: 0.1rem;
         top: 50%;
         margin-top: -0.29rem;
         position: absolute;
@@ -601,7 +602,6 @@ em {
   .footer a {
     color: #a0a0a0; }
   .footer ul li {
-    font-size: 0.22rem;
     height: 0.4rem;
     line-height: 0.4rem;
     margin: 0px 1%;
