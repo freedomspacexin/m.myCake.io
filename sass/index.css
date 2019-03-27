@@ -434,9 +434,8 @@ em {
     .products-container .player-tool_wrapper li {
       float: left;
       width: 20%;
-      font-size: 0.26rem;
       color: #fff; }
-      .products-container .player-tool_wrapper li p {
+      .products-container .player-tool_wrapper li a {
         display: inline-block;
         cursor: pointer;
         text-align: center;
@@ -444,9 +443,9 @@ em {
         height: 0.8rem;
         line-height: 0.8rem;
         border-radius: 50%;
-        background-color: #684028; }
-        .products-container .player-tool_wrapper li p span {
-          font-size: 0.12rem; }
+        background-color: #684028;
+        color: #fff;
+        font-size: 0.26rem; }
 
 .product-list {
   padding: 0.2rem 0.3rem; }
