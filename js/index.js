@@ -37,7 +37,7 @@ $(function(){
 
 
     /*导航栏点击实现*/
-    $('.products-container a').on('tap', function(){
+    $('.products-container a').on('click', function(){
         $(window).scrollTo({toT:$($(this).attr('data-id')).offset().top-50});
     });
 
