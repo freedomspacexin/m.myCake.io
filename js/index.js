@@ -18,19 +18,19 @@ $(function(){
     var $menuIcon = $('.left-icon');
     var $menu = $('.top-header-menu');
     /*左上菜单*/
-    $menuIcon.on('tap',function(){
+    bindTapEvent($menuIcon[0],function(){
         if ($menu.hasClass('show')){
             $menu.removeClass('show');
-            $(this).children('i').removeClass('icomoon_font_close').addClass('icomoon_font_menu');
+            $menuIcon.children('i').removeClass('icomoon_font_close').addClass('icomoon_font_menu');
         } else {
             $menu.addClass('show');
-            $(this).children('i').removeClass('icomoon_font_menu').addClass('icomoon_font_close');
+            $menuIcon.children('i').removeClass('icomoon_font_menu').addClass('icomoon_font_close');
         }
     });
     /*删除公告*/
     var $closeNotice = $('.close-notice');
-    $closeNotice.on('tap', function(){
-        $(this).parent().hide();
+    bindTapEvent($closeNotice[0], function(){
+        $closeNotice.parent().hide();
     });
 
     loadLazy();
