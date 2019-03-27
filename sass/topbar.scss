@@ -73,6 +73,7 @@
       .city{
         float: left;
         height: 18px;
+        font-size: 14px;
         margin-left: 10px;
         i{
           font-size: 20px;
@@ -132,7 +133,7 @@
           display: block;
         }
         a {
-          padding: 15px 0px;
+          padding: 18px 0px;
           display: block;
           width: 33%;
           float: left;
@@ -140,12 +141,12 @@
           line-height: 0;
           i {
             display: inline-block;
-            font-size: 26px;
+            font-size: 20px;
           }
           span {
             display: block;
-            padding-top: 8px;
-            line-height: 20px;
+            padding-top: 18px;
+            font-size: 14px;
           }
         }
       }

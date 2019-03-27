@@ -265,6 +265,7 @@ em {
       .header-box > .top-header > .title-box .city {
         float: left;
         height: 18px;
+        font-size: 14px;
         margin-left: 10px; }
         .header-box > .top-header > .title-box .city i {
           font-size: 20px; }
@@ -313,7 +314,7 @@ em {
         .header-box > .top-header > .title-box .top-header-menu.show {
           display: block; }
         .header-box > .top-header > .title-box .top-header-menu a {
-          padding: 15px 0px;
+          padding: 18px 0px;
           display: block;
           width: 33%;
           float: left;
@@ -321,11 +322,11 @@ em {
           line-height: 0; }
           .header-box > .top-header > .title-box .top-header-menu a i {
             display: inline-block;
-            font-size: 26px; }
+            font-size: 20px; }
           .header-box > .top-header > .title-box .top-header-menu a span {
             display: block;
-            padding-top: 8px;
-            line-height: 20px; }
+            padding-top: 18px;
+            font-size: 14px; }
 
 .mycake-banner {
   margin-top: 50px;
