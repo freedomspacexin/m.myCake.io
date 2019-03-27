@@ -282,6 +282,8 @@ em {
           width: 34px;
           display: inline-block;
           vertical-align: middle; }
+        .header-box > .top-header > .title-box .eader-center i {
+          font-size: 0px; }
       .header-box > .top-header > .title-box .right-cart-city {
         height: 100%;
         float: right; }
