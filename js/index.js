@@ -34,6 +34,15 @@ $(function(){
     });
 
     loadLazy();
+
+
+    /*导航栏点击实现*/
+    $('.products-container a').on('tap', function(){
+        $(window).scrollTo({toT:$($(this).attr('data-id')).offset().top-50});
+    });
+
+
+    /*图片懒加载*/
     function loadLazy(){
         var imgEles = $("img[data-original][lazyload]");
         $.each(imgEles,function(index,element){
