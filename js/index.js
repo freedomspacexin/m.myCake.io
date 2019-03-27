@@ -18,7 +18,7 @@ $(function(){
     var $menuIcon = $('.left-icon');
     var $menu = $('.top-header-menu');
     /*左上菜单*/
-    bindTapEvent($menuIcon[0],function(){
+    $menuIcon.on('click',function(){
         if ($menu.hasClass('show')){
             $menu.removeClass('show');
             $menuIcon.children('i').removeClass('icomoon_font_close').addClass('icomoon_font_menu');
@@ -29,7 +29,7 @@ $(function(){
     });
     /*删除公告*/
     var $closeNotice = $('.close-notice');
-    bindTapEvent($closeNotice[0], function(){
+    $closeNotice.on('click', function(){
         $closeNotice.parent().hide();
     });
 
